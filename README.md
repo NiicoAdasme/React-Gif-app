@@ -1,6 +1,6 @@
 # Gif Expert App
 
-Aplicacion hecha en Reactjs conn hooks para buscar gifs animados usando la API de Giphy
+Aplicacion hecha en Reactjs con hooks para buscar gifs animados usando la API de Giphy
 
 
 # Getting Started with Create React App
