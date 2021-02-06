@@ -3,7 +3,7 @@ import { useFetchGifs } from '../Hooks/useFetchGifs';
 // import { getGifs } from '../Helpers/getGifs';
 import { GifGridItem } from './GifGridItem';
 // import GifExpertApp from '../GifExpertApp';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 export const GifGrid = ({category}) => {
 
@@ -40,3 +40,7 @@ export const GifGrid = ({category}) => {
     
     
 }
+
+GifGrid.propTypes = {
+    category: PropTypes.string.isRequired
+};
