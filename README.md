@@ -5,8 +5,13 @@ Aplicacion hecha en Reactjs con hooks para buscar gifs animados usando la API de
 # Instalación
 Hacer un git clone del repositorio o descargarlo
 Abrir la terminar y ubicarse en el directorio que se descargó
-Ejecutar ### `npm install` 
-Luego ejecutar ### `npm start`
+Ejecutar 
+### `npm install` o 
+### `npm i`  
+para descargar las dependencias de React
+Luego ejecutar 
+### `npm start` 
+para desplegar la aplicacion de forma local
 
 
 # Getting Started with Create React App
