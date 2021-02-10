@@ -3,15 +3,14 @@
 Aplicacion hecha en Reactjs con hooks para buscar gifs animados usando la API de Giphy
 
 # Instalación
-Hacer un git clone del repositorio o descargarlo
-Abrir la terminar y ubicarse en el directorio que se descargó
-Ejecutar 
-### `npm install` o 
-### `npm i`  
-para descargar las dependencias de React
-Luego ejecutar 
+1) Hacer un git clone del repositorio o descargarlo.
+2) Abrir la terminar y ubicarse en el directorio que se descargó.
+3) Ejecutar 
+### `npm install` o
+### `npm i`  Para descargar las dependencias de React.
+4) Luego ejecutar
 ### `npm start` 
-para desplegar la aplicacion de forma local
+Para desplegar la aplicacion de forma local.
 
 
 # Getting Started with Create React App
