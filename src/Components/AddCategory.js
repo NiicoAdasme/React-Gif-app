@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import GifExpertApp from '../GifExpertApp'
 import PropTypes from 'prop-types';
 
-export const AddCategory = ({setCategories}) => {
+export const AddCategory = ({onNewCategory}) => {
 
     const [inputValue, setInputValue] = useState('');
 
@@ -16,10 +16,13 @@ export const AddCategory = ({setCategories}) => {
         e.preventDefault();
 
         // console.log('HandleSubmit llamado, con valor: ', inputValue);
+
+        const inputClean = inputValue.trim()
     
-        if(inputValue.trim().length > 2){
+        if(inputClean.length > 2){
             
-            setCategories(categ => [inputValue, ...categ]);
+            // setCategories(categ => [inputValue, ...categ]);
+            onNewCategory(inputClean)
 
             setInputValue('');
         }
@@ -39,7 +42,7 @@ export const AddCategory = ({setCategories}) => {
 }
 
 AddCategory.propTypes = {
-    setCategories: PropTypes.func.isRequired
+    onNewCategory: PropTypes.func.isRequired
 };
 
 
